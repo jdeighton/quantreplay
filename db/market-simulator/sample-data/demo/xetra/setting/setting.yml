@@ -50,7 +50,7 @@ databaseChangeLog:
                   value: SeedPriceDatabaseConnection
               - column:
                   name: value
-                  value: postgresql://user:passwork@127.0.0.1:5432/database_name
+                  value: postgresql://user:password@127.0.0.1:5432/database_name
             where: key='SeedPriceDatabaseConnection'
 
   - changeSet:
